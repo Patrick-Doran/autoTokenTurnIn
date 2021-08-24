@@ -1,4 +1,4 @@
-import pyautogui #lies
+import pyautogui
 import time
 
 #get cursor locations
@@ -82,5 +82,5 @@ def delChar():
     pyautogui.press('esc')
 
 while True:
-    #autoTurnIn()
-    delChar()
+    autoTurnIn()
+    #delChar()
